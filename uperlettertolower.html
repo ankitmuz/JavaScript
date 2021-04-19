@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src=""></script>
+        <title>upertolower</title>
+    </head>
+    <body>
+        <h3>Convert First letter to UpperCase</h3>
+
+        <script>
+          function CapitalizeFirstLetter(str){
+              const Capitalize=str.charAt(0).toUpperCase() + str.slice(1);
+               return Capitalize;
+          }
+          const string=prompt("enter a string: ");
+          const result=CapitalizeFirstLetter(string);
+          console.log(result)  
+        </script>
+
+    </body>
+</html>

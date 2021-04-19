@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src=""></script>
+        <title>Random str</title>
+    </head>
+    <body>
+        <h3>Generate Random String</h3>
+
+
+        <script>
+            var input="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+            let result='';
+            const inputlen=input.length
+            // console.log(inputlen)
+            for (i=0; i<=inputlen; i++){
+                result=result+input.charAt(Math.floor(Math.random(5)*inputlen))
+                
+            } 
+            console.log(result) 
+
+            
+            
+
+
+
+        </script>
+    </body>
+</html>

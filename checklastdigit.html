@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script src=""></script>
+    <title>Check the Last Digit</title>
+    </head>
+    <body>
+        <h3>Check if the Numbers Have Same Last Digit</h3>
+
+        <script>
+            const a=prompt("enter a number: ")
+            const b=prompt("enter a second number")
+            const c=prompt("enter a third number")
+
+            let res_a=(a%10)
+            let res_b=(b%10)
+            let res_c=(c%10)
+
+            if(res_a==res_b & res_b==res_c){
+                console.log(`${a}, ${b} and ${c} have the same last digit.`)
+            
+            }
+            else {
+                console.log(`${a}, ${b} and ${c} have different last digit.`);
+            }
+        </script>
+    </body>
+</html>

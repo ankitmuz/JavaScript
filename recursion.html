@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src=""></script>
+        <title>Recursion</title>
+    </head>
+    <body>
+        Sum of Natural Numbers Using Recursion
+        
+
+
+
+    <script>
+        // function sum(num){
+        //     if (num>0){
+        //         return num + sum(num-1)
+        //     }
+        //     else{
+        //         return num;
+        //     }
+        // }
+
+        // const number =parseInt(prompt('enter a number'))
+        // const result=sum(number);
+        // console.log(`The sum of is ${result}`)
+
+
+            
+
+        // Find Factorial using Recursion
+        function sum(a){
+            if (a==1){
+                return a;
+            }
+
+            else{
+                const v=( a*sum(a-1))
+                return v;
+            }
+        }
+        const a=parseInt(prompt("enter a number")) 
+        const result=sum(a)
+        console.log(result)
+
+
+
+        
+
+    //   Sum of natural numbers
+
+    // function sum(number){
+    //     if (number==1){
+    //         return number
+    //     }
+
+    //     else{
+    //         const z=number+sum(number-1)
+    //         return z;
+    //     }
+    // }
+
+    // const input=parseInt(prompt('enter a number'))
+    // const output=sum(input)
+    // console.log(output)
+   
+    
+
+    
+
+
+    </script>    
+    </body>
+</html>

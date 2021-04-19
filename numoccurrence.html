@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src=""></script>
+        <title></title>
+    </head>
+    <body>
+        <h3>ankit</h3>
+        <script>
+            function checknumoccurrence(num,check){
+                let count=0
+                for (let i=0; i<=num.length; i++){
+                    if (num.charAt(i)==check){
+                        count=count+1
+                    }
+                }
+                return count;
+            }
+            let input=prompt("inter a number")
+            let inputcheck=parseInt(prompt('enter a checking number'))
+            let res=checknumoccurrence(input,inputcheck)
+            console.log(res)
+        </script>
+    </body>
+</html>

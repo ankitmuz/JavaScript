@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src=""></script>
+        <title> Random Num</title>
+    </head>
+    <body>
+        Generate a Random Number
+
+
+        <!-- Random number Generate -->
+        <script>
+         const a=Math.random();  
+         console.log(`Random number is ${a}`)
+         
+
+        //  Random number Generate between 1-10
+         const A=Math.random()* (10-1)+1;
+         console.log(`Random value between 1 and 10 is ${A}`)
+
+
+
+        //  Random number Generate between 1-100
+         const b=Math.random()*(100-1) + 1;
+         console.log(`Random value among 1 to 100 is ${b}`)
+
+
+        //  Integer Value between Two Numbers (Inclusive)
+        const min = parseInt(prompt("Enter a min value: "));
+        const max = parseInt(prompt("Enter a max value: "));
+        const B = Math.floor(Math.random() * (max - min + 1)) + min;
+        console.log(`Random value between ${min} and ${max} is ${B}`);
+
+        </script>
+    </body>
+</html>
